@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .kd {
+        background-color: rgb(7 94 84);
+        border: 2px solid black;
+        height: 100px;
+        width: 480px;
+        /* overflow-y: scroll; */
+      }
+      .cd1 {
+        background-position: relative;
+        height: 100px;
+        width: 80px;
+      }
+      .cd2 {
+        background-position: relative;
+        height: 100px;
+        width: 90px;
+        margin-left: 190px;
+        margin-top: -100px;
+      }
+      .cd3 {
+        background-position: relative;
+        height: 100px;
+        width: 80px;
+        margin-left: 390px;
+        margin-top: -100px;
+      }
+      .b1 {
+        background-color: rgb(7 94 84);
+        border: 2px solid rgb(7 94 84);
+        height: 600px;
+        width: 500px;
+        position: relative;
+        top: 20px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      .c1 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        position: relative;
+        font-size: x-large;
+      }
+      .c2 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c3 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c4 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c5 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c6 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c7 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c8 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c9 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c10 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .c11 {
+        background-color: antiquewhite;
+        border: 4px solid rgb(7 94 84);
+        border-radius: 20px;
+        height: 80px;
+        width: 470px;
+        font-size: x-large;
+      }
+      .pr1 {
+        text-align: center;
+      }
+      .pr2 {
+        position: relative;
+        bottom: 950px;
+        left: 190px;
+      }
+      .d1 {
+        border: 10px solid rgb(7 94 84);
+        background-color: antiquewhite;
+        height: 600px;
+        width: 1000px;
+        position: relative;
+        left: 500px;
+        top: -700px;
+        position: fixeed;
+        overflow-y: scroll;
+      }
+      .nw {
+        background-color: rgb(7 94 84);
+        border: 2px solid black;
+        height: 100px;
+        width: 1015px;
+        position: relative;
+        left: 500px;
+        bottom: 703px;
+      }
+      .e12 {
+        position: absolute;
+        top: 10px;
+      }
+      .e2 {
+        height: 70px;
+        position: relative;
+        left: 900px;
+        top: 6px;
+      }
+      .e3 {
+        position: absolute;
+        left: 800px;
+      }
+      .e4 {
+        position: absolute;
+        left: 700px;
+        top: 15px;
+      }
+      .ch0 {
+        background-color: rgb(174, 173, 173);
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        position: sticky;
+        top: 1px;
+        left: 400px;
+      }
+      .ch01 {
+        position: relative;
+        left: 25px;
+        
+      }
+      .ch1 {
+        background-color: goldenrod;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+      }
+      .ch12 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch2 {
+        background-color: gold;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch21 {
+        position: relative;
+        left: 10px;
+        top: 10px;
+      }
+      .ch3 {
+        background-color: palevioletred;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch31 {
+        position: relative;
+        top: 15px;
+      }
+      .ch4 {
+        background-color: green;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch41 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch5 {
+        background-color: greenyellow;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch51 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch6 {
+        background-color: powderblue;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch61 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch7 {
+        background-color: orange;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch71 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch8 {
+        background-color: violet;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch81 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch9 {
+        background-color: paleturquoise;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch91 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch10 {
+        background-color: rebeccapurple;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+      }
+      .ch101 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch11 {
+        background-color: darkturquoise;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch111 {
+        position: relative;
+        left: 10px;
+        top: 10px;
+      }
+      .ch12 {
+        background-color: palevioletred;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch121 {
+        position: relative;
+        top: 15px;
+      }
+      .ch13 {
+        background-color: antiquewhite;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch131 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch14 {
+        background-color: goldenrod;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch141 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch15 {
+        background-color: purple;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch151 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch16 {
+        background-color: navy;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch161 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch17 {
+        background-color: limegreen;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .ch171 {
+        position: absolute;
+        left: 10px;
+      }
+      .ch18 {
+        background-color: maroon;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .ch181 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht1 {
+        background-color: lawngreen;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+      }
+      .cht12 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht2 {
+        background-color: deeppink;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht21 {
+        position: relative;
+        left: 10px;
+        top: 10px;
+      }
+      .cht3 {
+        background-color: darkgoldenrod;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht31 {
+        position: relative;
+        top: 15px;
+      }
+      .cht4 {
+        background-color: cornflowerblue;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht41 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht5 {
+        background-color: darkgreen;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht51 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht6 {
+        background-color: crimson;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht61 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht7 {
+        background-color: red;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht71 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht8 {
+        background-color: burlywood;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht81 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht9 {
+        background-color: rgb(243, 247, 244);
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht91 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht10 {
+        background-color: aqua;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+      }
+      .cht101 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht11 {
+        background-color: chartreuse;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht111 {
+        position: relative;
+        left: 10px;
+        top: 10px;
+      }
+      .cht12 {
+        background-color:violet;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht121 {
+        position: relative;
+        top: 15px;
+      }
+      .cht13 {
+        background-color:pink;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht131 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht14 {
+        background-color: orange;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht141 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht15 {
+        background-color:darkgoldenrod;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht151 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht16 {
+        background-color:violet;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht161 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht17 {
+        background-color:brown;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+        left: 770px;
+      }
+      .cht171 {
+        position: absolute;
+        left: 10px;
+      }
+      .cht18 {
+        background-color:green;
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        position: relative;
+      }
+      .cht181 {
+        position: absolute;
+        left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kd">
+      <div class="cd1">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#eedddd"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M10 9H17M10 13H17M7 9H7.01M7 13H7.01M21 20L17.6757 18.3378C17.4237 18.2118 17.2977 18.1488 17.1656 18.1044C17.0484 18.065 16.9277 18.0365 16.8052 18.0193C16.6672 18 16.5263 18 16.2446 18H6.2C5.07989 18 4.51984 18 4.09202 17.782C3.71569 17.5903 3.40973 17.2843 3.21799 16.908C3 16.4802 3 15.9201 3 14.8V7.2C3 6.07989 3 5.51984 3.21799 5.09202C3.40973 4.71569 3.71569 4.40973 4.09202 4.21799C4.51984 4 5.0799 4 6.2 4H17.8C18.9201 4 19.4802 4 19.908 4.21799C20.2843 4.40973 20.5903 4.71569 20.782 5.09202C21 5.51984 21 6.0799 21 7.2V20Z"
+              stroke="#fdf7f7"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="cd2">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.9809 9.25283C18.2198 7.32031 16.6794 5.77999 14.7469 5.01897C14.5229 5.27358 14.3413 5.56647 14.2133 5.88656C16.0226 6.54172 17.4581 7.97718 18.1133 9.7864C18.4334 9.6584 18.7263 9.47685 18.9809 9.25283ZM12.2276 5.50391C12.1521 5.50131 12.0762 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 11.9237 18.4987 11.8478 18.4961 11.7721C18.8387 11.6648 19.1655 11.5216 19.472 11.347C19.4905 11.5622 19.5 11.78 19.5 12C19.5 16.1421 16.1421 19.5 12 19.5C7.85786 19.5 4.5 16.1421 4.5 12C4.5 7.85786 7.85786 4.5 12 4.5C12.2199 4.5 12.4376 4.50946 12.6527 4.52801C12.4781 4.83451 12.3349 5.16128 12.2276 5.50391Z"
+              fill="#f7f3f3"
+            ></path>
+            <circle cx="17" cy="7" r="3" fill="#f7f3f3"></circle>
+          </g>
+        </svg>
+      </div>
+      <div class="cd3">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M17.3545 22.2323C15.3344 21.7262 11.1989 20.2993 7.44976 16.5502C3.70065 12.8011 2.2738 8.66559 1.76767 6.6455C1.47681 5.48459 2.00058 4.36434 2.88869 3.72997L5.21694 2.06693C6.57922 1.09388 8.47432 1.42407 9.42724 2.80051L10.893 4.91776C11.5152 5.8165 11.3006 7.0483 10.4111 7.68365L9.24234 8.51849C9.41923 9.1951 9.96939 10.5846 11.6924 12.3076C13.4154 14.0306 14.8049 14.5807 15.4815 14.7576L16.3163 13.5888C16.9517 12.6994 18.1835 12.4847 19.0822 13.1069L21.1995 14.5727C22.5759 15.5257 22.9061 17.4207 21.933 18.783L20.27 21.1113C19.6356 21.9994 18.5154 22.5232 17.3545 22.2323ZM8.86397 15.136C12.2734 18.5454 16.0358 19.8401 17.8405 20.2923C18.1043 20.3583 18.4232 20.2558 18.6425 19.9488L20.3056 17.6205C20.6299 17.1665 20.5199 16.5348 20.061 16.2171L17.9438 14.7513L17.0479 16.0056C16.6818 16.5182 16.0047 16.9202 15.2163 16.7501C14.2323 16.5378 12.4133 15.8569 10.2782 13.7218C8.1431 11.5867 7.46219 9.7677 7.24987 8.7837C7.07977 7.9953 7.48181 7.31821 7.99439 6.95208L9.24864 6.05618L7.78285 3.93893C7.46521 3.48011 6.83351 3.37005 6.37942 3.6944L4.05117 5.35744C3.74413 5.57675 3.64162 5.89565 3.70771 6.15943C4.15989 7.96418 5.45459 11.7266 8.86397 15.136Z"
+              fill="#fefbfb"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="b1">
+      <div class="c1">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">Nithin</p>
+      </div>
+      <div class="c2">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">bava</p>
+      </div>
+      <div class="c3">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">akshu</p>
+      </div>
+      <div class="c4">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">Bharath</p>
+      </div>
+      <div class="c5">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">lokibhaii</p>
+      </div>
+      <div class="c6">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">girlfriend</p>
+      </div>
+      <div class="c7">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">charan</p>
+      </div>
+      <div class="c8">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">rakesh</p>
+      </div>
+      <div class="c9">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">dad</p>
+      </div>
+      <div class="c10">
+        <svg
+          height="80px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr1">babai</p>
+      </div>
+      <div class="c11">
+        <svg
+          height="70px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <p class="pr2">tammudu</p>
+      </div>
+    </div>
+    <div class="nw">
+      <div class="e1">
+        <svg
+          class="e12"
+          height="70px"
+          viewBox="-2.4 -2.4 28.80 28.80"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-2.4"
+              y="-2.4"
+              width="28.80"
+              height="28.80"
+              rx="14.4"
+              fill="#bbbdbe"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9 9.5V7.5C9 5.84315 10.3431 4.5 12 4.5C13.6569 4.5 15 5.84315 15 7.5V9.5C15 10.6104 14.3967 11.5799 13.5 12.0987V13.323C13.5 13.7319 13.749 14.0996 14.1286 14.2514L16.1788 15.0715C17.5807 15.6323 18.5 16.9901 18.5 18.5H5.5C5.5 16.9901 6.41927 15.6323 7.82119 15.0715L9.87139 14.2514C10.251 14.0996 10.5 13.7319 10.5 13.323V12.0987C9.6033 11.5799 9 10.6104 9 9.5Z"
+              stroke="#075e54"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          class="e2"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+              stroke="#fdf7f7"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          class="e3"
+          height="80px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M9.5 9V15M6.5 12H12.5M16 10L18.5768 8.45392C19.3699 7.97803 19.7665 7.74009 20.0928 7.77051C20.3773 7.79703 20.6369 7.944 20.806 8.17433C21 8.43848 21 8.90095 21 9.8259V14.1741C21 15.099 21 15.5615 20.806 15.8257C20.6369 16.056 20.3773 16.203 20.0928 16.2295C19.7665 16.2599 19.3699 16.022 18.5768 15.5461L16 14M6.2 18H12.8C13.9201 18 14.4802 18 14.908 17.782C15.2843 17.5903 15.5903 17.2843 15.782 16.908C16 16.4802 16 15.9201 16 14.8V9.2C16 8.0799 16 7.51984 15.782 7.09202C15.5903 6.71569 15.2843 6.40973 14.908 6.21799C14.4802 6 13.9201 6 12.8 6H6.2C5.0799 6 4.51984 6 4.09202 6.21799C3.71569 6.40973 3.40973 6.71569 3.21799 7.09202C3 7.51984 3 8.07989 3 9.2V14.8C3 15.9201 3 16.4802 3.21799 16.908C3.40973 17.2843 3.71569 17.5903 4.09202 17.782C4.51984 18 5.07989 18 6.2 18Z"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+        <svg
+          class="e4"
+          height="60px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+              stroke="#f7f7f7"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="d1">
+      <div class="ch0"><p class="ch01">yesterday</p></div>
+      <div class="ch1"><p class="ch12">hello</p></div>
+      <div class="ch2"><p class="ch21">hi</p></div>
+      <div class="ch3"><p class="ch31">what are you doing</p></div>
+      <div class="ch4"><p class="ch41">nothing</p></div>
+      <div class="ch5"><p class="ch51">how is your day?</p></div>
+      <div class="ch6"><p class="ch61">Good.about you?</p></div>
+      <div class="ch7"><p class="ch71">good</p></div>
+      <div class="ch8"><p class="ch81">had your dinner ah?</p></div>
+      <div class="ch9"><p class="ch91">yes,</p></div>
+      <div class="ch10"><p class="ch101">you?</p></div>
+      <div class="ch11"><p class="ch111">yes just now</p></div>
+      <div class="ch12"><p class="ch121">good</p></div>
+      <div class="ch13"><p class="ch131">what u ate?</p></div>
+      <div class="ch14"><p class="ch141">dal rice</p></div>
+      <div class="ch15"><p class="ch151">who prepared it?</p></div>
+      <div class="ch16"><p class="ch161">my frd</p></div>
+      <div class="ch17"><p class="ch171">name?</p></div>
+      <div class="ch18"><p class="ch181">sandeep</p></div>
+      <div class="ch0"><p class="ch01">Today</p></div>
+      <div class="cht1"><p class="cht12">hello</p></div>
+      <div class="cht2"><p class="cht21">hi</p></div>
+      <div class="cht3"><p class="cht31">what are you doing</p></div>
+      <div class="cht4"><p class="cht41">nothing</p></div>
+      <div class="cht5"><p class="cht51">what about u r day?</p></div>
+      <div class="cht6"><p class="cht61">Good.about you?</p></div>
+      <div class="cht7"><p class="cht71">very nice</p></div>
+      <div class="cht8"><p class="cht81">did you ate?</p></div>
+      <div class="cht9"><p class="cht91">yes,</p></div>
+      <div class="cht10"><p class="cht101">you?</p></div>
+      <div class="cht11"><p class="cht111">i ate chicken</p></div>
+      <div class="cht12"><p class="cht121">good</p></div>
+      <div class="cht13"><p class="cht131">what u ate?</p></div>
+      <div class="cht14"><p class="cht141">dal rice</p></div>
+      <div class="cht15"><p class="cht151">who prepared it?</p></div>
+      <div class="cht16"><p class="cht161">my frd</p></div>
+      <div class="cht17"><p class="cht171">name?</p></div>
+      <div class="cht18"><p class="cht181">sandeep</p></div>
+
+    </div>
+  </body>
+</html>
